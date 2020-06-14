@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8"/>
+
+	<title>Document</title>
+
+	<style type="text/css">
+
+		*{
+
+			padding :0;
+
+			margin :0;
+
+		}
+
+		.clearfix:after{
+
+			content: "";
+
+			display: block;
+
+			height: 0;
+
+			clear: both;
+
+		}
+
+		div.line{
+
+			border-top: 1px solid #ccc;
+
+		}
+
+		div.head
+
+		{
+
+			margin: 0 auto;
+
+			position: relative;
+
+			width: 1200px;
+
+			height:80px;
+
+			line-height: 80px;
+
+		}
+
+		ul.navigation
+
+		{
+
+			
+
+			width: 800px;
+
+			height: 60px;
+
+			position: absolute;
+
+			right: 0;
+
+			top: 50%;
+
+			margin-top: -30px;
+
+		}
+
+		li.link
+
+		{
+
+			float: left;
+
+			list-style-type: none;
+
+			height: 60px;
+
+			line-height: 60px;
+
+			width: 160px;
+
+ 			text-align: center;
+
+		}
+
+		a.lianjie
+
+		{
+
+			display: inline-block;
+
+			color: black;
+
+			height: 60px;
+
+			width: 160px;
+
+			text-decoration: none;
+
+			font-size: 20px;
+
+		}
+
+		a:hover 
+
+		{
+
+			color: orange;
+
+			border-bottom: 3px solid orange;
+
+			font-size: 20px;
+
+		}
+
+		img.logo{
+
+			display: inline-block;
+
+			position: absolute;
+
+			top: 50%;
+
+			margin-top: -25px;
+
+		}
+
+		div.passage
+
+		{
+
+			height: 560px;
+
+			background-color:#ddd;
+
+			padding:20px 0;
+
+		}
+
+		ul.picture{
+
+			width: 1200px;
+
+			margin: 0 auto;
+
+		}
+
+		li.picture1{
+
+			height: 560px;
+
+		}
+
+		div.passage li{
+
+			float: left;
+
+			list-style-type: none;
+
+		}
+
+		ul.picture li
+
+		{
+
+			position: relative;
+
+		}
+
+		div.introduction1
+
+		{
+
+			background-color: #000;
+
+			width:398px;
+
+			height: 73px;
+
+			position: absolute;
+
+			bottom: 0;
+
+			background: rgba(0, 0, 0, 0.5);
+
+			text-align:center;
+
+			line-height: 73px;
+
+
+
+		}
+
+		div.introduction2
+
+		{
+
+			background-color: #000;
+
+			width:398px;
+
+			height: 47px;
+
+			position: absolute;
+
+			bottom: 0;
+
+			background: rgba(0, 0, 0, 0.5);
+
+			text-align:center;
+
+			line-height: 47px;
+
+
+
+		}
+
+		div.introduction1 span.word{
+
+			color: #fff;
+
+			font-size: 20px;
+
+		}
+
+		div.introduction1 span.money{
+
+			color: #fff;
+
+			font-size: 30px;
+
+		}
+
+		li.picture23{
+
+			width: 802px;
+
+		}
+
+		li.picture23 li{
+
+			height: 278px;
+
+			margin: 0px 2px 4px 2px;
+
+		}
+
+		li.picture23 li.picture3{
+
+			margin: 0px 0px 4px 2px;
+
+		}
+
+		div.introduction2 span.word{
+
+			color: #fff;
+
+			font-size: 18px;
+
+		}
+
+		div.introduction2 span.money{
+
+			color: #fff;
+
+			font-size: 26px;
+
+		}
+
+		div.bottom
+
+		{
+
+			height: 120px;
+
+			background-color: #000;
+
+			line-height: 120px;
+
+		}
+
+		.bottom p{
+
+			color: #fff;
+
+			font-size: 15px;
+
+			text-align: center;
+
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class = "line"></div>
+
+	<div class = "head">
+
+		<img class = "logo" src="C:\Users\86198\Pictures\QQ图片20200614202522.jpg" />
+
+		<ul class= "navigation">
+
+			<li class = "link"><a class = "lianjie" href="#">首页</a></li>
+
+			<li class = "link"><a class = "lianjie" href="#">热门商品</a></li>
+
+			<li class = "link"><a class = "lianjie" href="#">商品分类</a></li>
+
+			<li class = "link"><a class = "lianjie" href="#">购物车</a></li>
+
+			<li class = "link"><a class = "lianjie" href="#">个人中心</a></li>
+
+
+		</ul>
+
+	</div>
+
+	<div class = "passage">
+
+		<ul class = "picture clearfix">
+
+			<li class = "picture1 clearfix">
+
+				<img class = "picture1" src="C:\Users\86198\Pictures\QQ图片20200614203854.jpg"/>
+
+
+
+			</li>	
+
+			<li class = "picture23 clearfix">
+
+				<ul class = "clearfix">
+
+					<li class = "picture2">
+
+						<img src="C:\Users\86198\Pictures\QQ图片20200614203814.jpg"/>
+
+						<div class = "introduction2">
+
+							<span class = "word">
+
+							阿宽红油面皮拌面
+								&nbsp;&nbsp;<span class = "money">¥60</span>
+
+							</span>
+
+					
+
+						</div>
+
+					</li>	
+
+					<li class = "picture3">
+
+						<img src="C:\Users\86198\Pictures\QQ图片20200614203818.jpg"/>
+
+						<div class = "introduction2">
+
+							<span class = "word">
+
+								 成品手环
+
+								&nbsp;&nbsp;<span class = "money">¥9.9</span>
+
+							</span>
+
+					
+
+						</div>
+
+					</li>	
+
+					<li class = "picture2">
+
+						<img src="‪C:\Users\86198\Pictures\QQ图片20200614203827.jpg"/>
+
+						<div class = "introduction2">
+
+							<span class = "word">
+
+								 荷兰兔
+
+								&nbsp;&nbsp;<span class = "money">¥1，200</span>
+
+							</span>
+
+						
+
+						</div>
+
+					</li>	
+
+					<li class = "picture3">
+
+						<img src="‪C:\Users\86198\Pictures\QQ图片20200614203823.jpg"/>
+
+						<div class = "introduction2">
+
+							<span class = "word">
+
+								夏季黑色小皮鞋
+
+								&nbsp;&nbsp;<span class = "money">¥148</span>
+
+							</span>
+
+						</div>
+
+					</li>
+
+				</ul>
+
+			</li>
+
+		</ul>	
+
+	</div>
+
+	<div class = "bottom">
+
+		<p>河北师范大学版权所有</p>
+
+	</div>
+
+</body>
+
+</html>
